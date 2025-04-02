@@ -2,5 +2,39 @@
 width: 240px;
 
 }
-
+.navBar{
+    display: flex;
+}
    
+.navBar>ul{
+    display: flex;
+   list-style: none ;
+align-items: center;
+color: aliceblue;
+}
+.navBar>ul>li{
+
+margin-left: 190px;
+text-align: center;
+font-size: 30px;
+
+
+}
+.navBar>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+.navBar>ul>li>:hover{
+    color: rgb(0, 255, 42);
+}
+
+.navBar2{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 590px;
+}
+
+/*    هسا هون رح ابلش بلصقحة من تحت */
+
