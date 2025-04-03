@@ -2,6 +2,10 @@
 width: 240px;
 
 }
+
+.sal{
+    margin-left: 50px;
+}
 .navBar{
     display: flex;
 }
@@ -105,18 +109,26 @@ font-size: 30px;
 
 .imgfood{
     background-color: white;
-    border-radius: 60px;
-    border:0px solid black;
+    border-radius: 160px;
+    border:px solid black;
   display: flex;
-    padding: 0px;
-    margin-left: 300px;
+    padding: 10px;
+    margin-left:300px;
 }
 
 .colerstar{
     color: yellow;
 }
-.imgeat{
+.imgeat1{
     width: 150px;
+    height: 150px;
+    margin-left: 900px;
+}
+
+.imgeat2{
+    width: 150px;
+    height: 150px;
+margin-left: 2px;
 }
 /* رح نبلش بلقسم الثاني من الصفحة */
 
@@ -124,8 +136,46 @@ font-size: 30px;
 .one{
     color: rgb(139, 0, 0);
     font-size: 30px;
+    margin-left: 900px;
 }
 .too{
     font-size: 100px;
-   margin-right: 190px;
+ margin-left: 700px;
+}
+
+.threepags{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+  
+margin-left: 100px;
+background-color: aqua;
+border-radius: 1000px;
+
+
+}
+.threepagsitem>ones{
+    margin-left: 900px; 
+}
+.center{
+   margin-left: 90px;
+} 
+
+/*(3) رح نبلش بلرسمات يلي كثير هسا  */
+.write0{
+    color:rgb(139, 0, 0) ;
+    margin-left: 80px;
+    font-size:20px;
+}
+.write01{
+    margin-left: 80px;
+    
+    font-size: 50px;
+}
+.share{
+    display: flex;
+    align-items: center;
+}
+.share1>i{
+    margin-left: 600px;
 }
