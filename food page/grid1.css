@@ -228,5 +228,48 @@ border-radius: 1000px;
 
 
 .writerchif{
-    margin-left: 900px;
+    margin-left: 1300px;
+}
+.chif1{
+    font-size: 30px;
+    color: rgb(128, 0, 0);
+
+}
+
+.chif2{
+font-size: 60px;
+}
+.chif3{
+font-size: 30px;
+}
+.imgchif{
+    display: flex;
+    width: 90px;
+    height:90px;
+    border-radius: 100%;
+    position: relative;
+    
+    
+    
+}
+.imgchif>img{
+    border-radius: 100%;
+}
+.gir1{
+    position: relative;
+    background-color: blueviolet;
+    margin-left: 2px;
+    
+}
+.yellow-star{
+    color: yellow;
+}
+.button0{
+    text-align: center;
+    font-size: 25px;
+   border-radius: 60px;
+   color: white;
+   background-color:rgb(0, 255, 42) ;
+    border: 10%;
+    padding: 20px;
 }
