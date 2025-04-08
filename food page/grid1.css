@@ -199,6 +199,44 @@ border-radius: 1000px;
      text-align: center;}
 
 
+.dishesmenu{
+    margin-top: 50px;
+      display: grid;
+    grid-template-columns:25% 25% 25%;
+    margin-left: 450px;
+    gap: 20px;
+}
+
+.menuItem{
+    text-align: center;
+width: 300px;
+border-radius: 50px;
+border: 0.5px solid black;
+position: relative;
+}
+
+.menuItem>img{
+    width:250px ;
+    height: 250px;
+    border: 100px;
+
+}
+  .heartfood{
+position: absolute;
+width: 90px;
+height: 70px;
+right:  0px;
+background-color:rgb(0, 255, 42) ;
+font-size: 30px;
+align-items: center;
+border-radius: 0px 50px 0px 50px;
+justify-content: center;
+display: flex;
+  }
+
+
+
+
 /* بلشت بصور الشسف هسا */
 
 /*.chiffood1{
@@ -272,4 +310,145 @@ font-size: 30px;
    background-color:rgb(0, 255, 42) ;
     border: 10%;
     padding: 20px;
+}
+
+
+/* جهة اليسار يلي فيها ديلفيري*/
+
+
+.delivery{
+    display: flex;
+   margin-left: 800px;
+   margin-top: -20%;
+}
+/*delivery1 */
+.green-food{
+    font-size: 60px;
+    color:rgb(0, 255, 42) ;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.green-clook{
+    font-size: 60px;
+    color:rgb(0, 255, 42) ;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.green-shoping{
+    font-size: 50px;
+    color:rgb(0, 255, 42) ;
+    align-items: center;
+    margin-left: 30px;
+}
+.green-gift{
+    font-size: 60px;
+    color:rgb(0, 255, 42) ;
+    align-items: center;
+    margin-left: 30px;
+}
+
+
+
+.delivery1{
+   text-align: center;
+    border-radius: 30px;
+    border: 600px;
+    background-color:rgba(245, 245, 245, 0.5);
+    width: 400px;
+    height: 200px;
+    
+    
+}
+
+
+.delivery1>h1{
+font-size: 20px;
+margin-left: 20px;
+
+}
+
+
+       .delivery2{
+        margin-left:100px;
+        text-align: center;
+    border-radius: 30px;
+    border: 600px;
+    background-color:rgba(245, 245, 245, 0.5);
+    width: 400px;
+    height: 200px;
+       }
+
+
+.hosam{
+    display: flex;
+    margin-left: 900px;
+    margin-top: 3%;
+}
+
+.delivery3{
+  
+    text-align: center;
+border-radius: 30px;
+border: 600px;
+background-color:rgba(245, 245, 245, 0.5);
+width: 400px;
+height: 200px;
+}
+.delivery4{
+    text-align: center;
+    border-radius: 30px;
+    border: 600px;
+    background-color:rgba(245, 245, 245, 0.5);
+    width: 400px;
+    height: 200px;
+    margin-left: 90px;
+}
+
+
+/* خلص هسا باخر الصفحة عزيزي */
+
+
+.finsh{
+    display: flex;
+    margin-left: 200px;
+}
+.div1{
+    margin-left: 200px;
+}
+.div2{
+    margin-left: 200px;
+}
+
+.div3{
+    margin-left: 200px;
+}
+
+/* قاع الصفحة */
+
+.youtube{
+    display: flex;
+}
+.link1{
+    margin-left: 80px;
+    font-size: 35px;
+   
+
+}
+.link2{
+    margin-left: 80px;
+    font-size: 35px;
+}
+.link3{
+    margin-left: 80px;
+    font-size: 35px;
+}
+.link4{
+    margin-left: 80px;
+    font-size: 35px;
+}
+.baybay{
+    font-size: 20px;
+    margin-left: 500px;
 }
