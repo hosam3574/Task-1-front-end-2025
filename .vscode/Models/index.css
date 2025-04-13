@@ -1,1 +1,18 @@
-.hedar
+
+
+.hedar{
+    display: flex;
+    align-items: center;
+}
+.hedars{
+    font-size: 30px;
+    margin-left: 610px;
+}
+
+.hedar>img{
+    width: 300px;
+height: 90px;
+background-color: white;
+text-align: center;
+margin-left: 50%;
+}
