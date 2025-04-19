@@ -1,0 +1,15 @@
+.marioworld{
+    background-image: url(https://i.pinimg.com/736x/71/11/93/71119363f45e2e8391458b2df0e4d6f2.jpg);
+    height: 700px;
+    width: 1000px;
+    margin-top: 200px;
+    position: relative;
+    margin-top: 300px;
+    align-items: center;
+    margin-left: 30%;
+}
+
+#mario{
+    position: absolute;
+    bottom:310px;
+}
