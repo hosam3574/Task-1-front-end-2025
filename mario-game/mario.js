@@ -26,6 +26,10 @@ function moveDown(){
 
 function moveLeft(){
     console.log("left")
+    if(left<=0){
+        return
+    }
+    
     left=left-10
     mario.style.left=left+'px'
 }
